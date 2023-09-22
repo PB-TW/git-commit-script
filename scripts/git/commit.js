@@ -4,7 +4,7 @@ const events = require('events');
 const fs = require('fs');
 const readline = require('readline');
 
-const CONTRIBUTORS_FILE = './scripts/git/contributors.csv'
+const CONTRIBUTORS_FILE = `${__dirname}/contributors.csv`
 const STORY_PREFIX = "BCS"
 
 const getContributors = async () => {
